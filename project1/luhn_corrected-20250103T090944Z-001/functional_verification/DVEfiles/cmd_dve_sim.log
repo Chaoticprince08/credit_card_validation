@@ -1,0 +1,40 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp31oY37
+synUtils::sendTool -active {_icl_start_rpc -version "U-2023.03" -sync_file /tmp/vcs_dve_rpc.vlsi24.13134}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.vlsi24.13134}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+synopsys::dump -add {luhn_testbench} -scope "." -depth 1 -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/dve/schematic.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/schematic/base.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/schematic/enable.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/schematic/netlist.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/schematic/method.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/strokes/stroke_defaults.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/dialogs/ObjectListInfo.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/common/schematic/DialogPathSchematicFanInOut.tcl
+tcl_source /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve/auxx/gui/dve/driversloads.tcl
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

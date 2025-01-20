@@ -1,0 +1,210 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key open_wave_inside -value true
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/vlsi24/Desktop/sn_designs/2x1 mux/mux_tb.v -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/vlsi24/Rahul/Rtl2gds/Cadence/counter/DVEfiles/dve_checkpoint_87058_1.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1919
+gui_set_state_value -category Layout -key child_console_size_y -value 137
+gui_set_state_value -category Layout -key child_data_coltype -value 37
+gui_set_state_value -category Layout -key child_data_colvalue -value 50
+gui_set_state_value -category Layout -key child_data_colvariable -value 94
+gui_set_state_value -category Layout -key child_data_size_x -value 105
+gui_set_state_value -category Layout -key child_data_size_y -value 740
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 105
+gui_set_state_value -category Layout -key child_hier_size_y -value 740
+gui_set_state_value -category Layout -key child_list_down -value 177
+gui_set_state_value -category Layout -key child_list_right -value 442
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1712
+gui_set_state_value -category Layout -key child_schematic_size_y -value 733
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1712
+gui_set_state_value -category Layout -key child_source_size_y -value 735
+gui_set_state_value -category Layout -key child_wave_colname -value 141
+gui_set_state_value -category Layout -key child_wave_colvalue -value 99
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 244
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 1458
+gui_set_state_value -category Layout -key child_wave_size_x -value 1712
+gui_set_state_value -category Layout -key child_wave_size_y -value 735
+gui_set_state_value -category Layout -key main_pos_x -value 1
+gui_set_state_value -category Layout -key main_pos_y -value 38
+gui_set_state_value -category Layout -key main_size_x -value 1920
+gui_set_state_value -category Layout -key main_size_y -value 1014
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 602
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 322
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 139
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 1097
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 636
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1924
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 872
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 60
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 66
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1979
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1042
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui -V} {-V}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/home/vlsi24/Desktop/subhajit_pratik/alu_ctr/sim /home/vlsi24/Desktop/ari_intern /home/vlsi24/Desktop/sn_designs/test}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/home/vlsi24/Desktop/subhajit_pratik/alu_ctr/sim/alu.simv alu.simv /home/vlsi24/Desktop/ari_intern/counter.simv counter.simv}
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe luhn.simv -args {-ucligui  -V} -dir .
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { luhn_testbench } -insertionbar
+gui_sim_continue  
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 195000
+gui_wv_zoom_timerange -id  Wave.1 190807 197191
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 185132
+gui_marker_move -id  Wave.1 C1 249325
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 121293
+gui_marker_move -id  Wave.1 C1 2128
+gui_wv_zoom_timerange -id  Wave.1 4965 212441
+gui_marker_move -id  Wave.1 C1 187710
+gui_close_window -window  Wave.1
+gui_use_schematics 
+gui_path_show -objects luhn_testbench
+gui_zoom -window Schematic.1 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.1 -rect { {-844 -346} {844 346} }
+gui_zoom -window Schematic.1 -rect { {-844 -346} {844 346} }
+gui_close_window -window  Schematic.1
+gui_use_schematics 
+gui_sch_show -name luhn_testbench
+gui_zoom -window Schematic.1 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.1 -rect { {-5383 -16377} {44607 4116} }
+gui_zoom -window Schematic.1 -rect { {-5383 -16377} {44607 4116} }
+gui_zoom -window Schematic.1 -rect { {-5383 -16377} {44607 4116} }
+gui_zoom -window Schematic.1 -full
+gui_zoom -window Schematic.1 -rect { {-5383 -16377} {44607 4116} }
+gui_schematic_select -id Schematic.1 -type {cell} -parent {luhn_testbench} {luhn_testbench.*p@31}
+gui_open_source -active luhn_testbench.*p@31 -activate
+gui_schematic_select -id Schematic.1 -type {cell} -parent {luhn_testbench} {luhn_testbench.uut}
+gui_sch_viewport_backup -id Schematic.1 -type save
+gui_sch_show -window Schematic.1 -name luhn_testbench.uut
+gui_zoom -window Schematic.1 -rect { {-4102 -16891} {47156 4122} }
+gui_zoom -window Schematic.1 -rect { {-4102 -16891} {47156 4122} }
+gui_sch_viewport_backup -id Schematic.1 -type restore -action in -pins {} -slct_targets global
+gui_schematic_clear_selection -id Schematic.1
+gui_list_expand -id  Hier.1   luhn_testbench
+gui_list_expand -id  Hier.1   luhn_testbench.uut
+gui_list_select -id Hier.1 -current_item_name luhn_testbench.uut.controller -current_item_type Scope  -selected  { luhn_testbench.uut.controller   }
+gui_list_action -id  Hier.1 luhn_testbench.uut.controller
+gui_use_schematics 
+gui_path_show -objects luhn_testbench.uut.controller
+gui_zoom -window Schematic.2 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.2 -rect { {-28562 -23574} {37829 3643} }
+gui_zoom -window Schematic.2 -rect { {-28562 -23574} {37829 3643} }
+gui_close_window -window  Schematic.2
+gui_use_schematics 
+gui_sch_show -name luhn_testbench.uut.controller
+gui_zoom -window Schematic.2 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_schematic_select -id Schematic.2 -type {cell} -parent {luhn_testbench.uut.controller} {luhn_testbench.uut.controller.*p@24}
+gui_open_source -active luhn_testbench.uut.controller.*p@24 -activate
+gui_zoom -window Schematic.2 -rect { {-19799 -18645} {38800 5378} }
+gui_zoom -window Schematic.2 -rect { {-21354 -19303} {40330 5984} }
+gui_zoom -window Schematic.2 -rect { {-22981 -19951} {41949 6667} }
+gui_zoom -window Schematic.2 -rect { {-21406 -19306} {40432 6044} }
+gui_zoom -window Schematic.2 -rect { {-19930 -18719} {38964 5425} }
+gui_zoom -window Schematic.2 -rect { {-18548 -18150} {37541 4844} }
+gui_zoom -window Schematic.2 -rect { {-17222 -17571} {36196 4328} }
+gui_zoom -window Schematic.2 -rect { {-15921 -17047} {34953 3809} }
+gui_zoom -window Schematic.2 -rect { {-14736 -16545} {33716 3318} }
+gui_zoom -window Schematic.2 -rect { {-13574 -16065} {32571 2852} }
+gui_zoom -window Schematic.2 -rect { {-12465 -15608} {31482 2408} }
+gui_zoom -window Schematic.2 -rect { {-11432 -15174} {30422 1984} }
+gui_zoom -window Schematic.2 -rect { {-10424 -14763} {29438 1578} }
+gui_zoom -window Schematic.2 -rect { {-9487 -14353} {28476 1211} }
+gui_zoom -window Schematic.2 -rect { {-8575 -13967} {27581 855} }
+gui_zoom -window Schematic.2 -rect { {-7709 -13606} {26725 510} }
+gui_zoom -window Schematic.2 -rect { {-8616 -13957} {27630 902} }
+gui_zoom -window Schematic.2 -rect { {-9577 -14312} {28577 1329} }
+gui_zoom -window Schematic.2 -rect { {-10593 -14691} {29569 1773} }
+gui_zoom -window Schematic.2 -rect { {-11641 -15096} {30635 2235} }
+gui_zoom -window Schematic.2 -rect { {-12745 -15526} {31756 2718} }
+gui_zoom -window Schematic.2 -rect { {-13908 -15981} {32935 3223} }
+gui_use_schematics 
+gui_path_show -objects luhn_testbench.uut.controller.*p@24
+gui_zoom -window Schematic.3 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.3 -rect { {-11652 -11231} {23936 3358} }
+gui_zoom -window Schematic.3 -rect { {-11652 -11231} {23936 3358} }
+gui_use_schematics 
+gui_path_show -objects luhn_testbench.uut.controller.*p@24
+gui_zoom -window Schematic.4 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.4 -rect { {-11652 -11231} {23936 3358} }
+gui_zoom -window Schematic.4 -rect { {-11652 -11231} {23936 3358} }
+gui_open_source -active luhn_testbench.uut.controller.*p@24 -activate
+gui_use_schematics 
+gui_sch_show -name luhn_testbench.uut.controller
+gui_zoom -window Schematic.5 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.5 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.5 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.5 -rect { {-18348 -18050} {37321 4772} }
+gui_close_window -window  Schematic.5
+gui_close_window -window  Schematic.4
+gui_close_window -window  Schematic.3
+gui_close_window -window  Schematic.2
+gui_close_window -window  Schematic.1
+gui_list_select -id Hier.1 -current_item_name luhn_testbench.uut.datapath -current_item_type Scope  -selected  { luhn_testbench.uut.datapath   }
+gui_list_select -id Hier.1 -current_item_name luhn_testbench.uut -current_item_type Scope  -selected  { luhn_testbench.uut   }
+gui_use_schematics 
+gui_path_show -objects luhn_testbench.uut
+gui_zoom -window Schematic.1 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.1 -rect { {-24176 -19462} {33384 4134} }
+gui_zoom -window Schematic.1 -rect { {-24176 -19462} {33384 4134} }
+gui_use_schematics 
+gui_sch_show -name luhn_testbench.uut.controller
+gui_schematic_select -id Schematic.1 -type {cell} -parent {luhn_testbench.uut} {luhn_testbench.uut.controller}
+gui_zoom -window Schematic.2 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_zoom -window Schematic.2 -rect { {-18348 -18050} {37321 4772} }
+gui_list_action -id  Hier.1 luhn_testbench.uut
+gui_close_window -window  Schematic.2
+gui_close_window -window  Schematic.1
+gui_list_select -id Hier.1 -current_item_name luhn_testbench -current_item_type Scope  -selected  { luhn_testbench   }
+gui_list_select -id Hier.1 -current_item_name luhn_testbench.uut -current_item_type Scope  -selected  { luhn_testbench.uut   }
+gui_use_schematics 
+gui_sch_show -name luhn_testbench.uut
+gui_zoom -window Schematic.1 -rect { {-17164 -4079} {27190 14104} }
+gui_zoom -window Schematic.1 -rect { {-4102 -16891} {47156 4122} }
+gui_zoom -window Schematic.1 -rect { {-4102 -16891} {47156 4122} }
+gui_zoom -window Schematic.1 -rect { {-4102 -16891} {47156 4122} }

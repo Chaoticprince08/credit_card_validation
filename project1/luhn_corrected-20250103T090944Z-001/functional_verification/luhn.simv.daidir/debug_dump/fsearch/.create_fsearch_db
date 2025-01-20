@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib:/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/pylib27
+export LD_LIBRARY_PATH
+/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/bin/vcsfind_create_index.exe  -z  "/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/luhn.simv.daidir/debug_dump/fsearch/./idents_0ToGcD.xml.gz" "/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/luhn.simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" -o "/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/luhn.simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/luhn.simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/luhn.simv.daidir/debug_dump/fsearch/fsearch.db"

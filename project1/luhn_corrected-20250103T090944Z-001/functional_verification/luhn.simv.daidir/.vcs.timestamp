@@ -1,0 +1,135 @@
+0
+34
++itf+/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libvirsim.so /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/liberrorinf.so /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libsnpsmalloc.so /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libvfs.so
+-Mout=luhn.simv
+-Msaverestoreobj=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/include
+-Mxllcflags=
+-V
+-Xvcs_run_simv=1
+-debug_access+r
+-gen_obj
+-gui
+-o luhn.simv
+-picarchive
+-ucli
+/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/bin/vcs1
+luhn.simv
+../luhn_corrected/luhn_testbench.v
+../luhn_corrected/luhn_topmodule.v
+../luhn_corrected/luhn_controller_corrected.v
+../luhn_corrected/luhn_datapath_corrected.v
+83
+which_declare=declare -f
+no_proxy=localhost,127.0.0.0/8,::1
+http_proxy=http://172.16.1.14:3128/
+XMODIFIERS=@im=ibus
+XDG_VTNR=2
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=2
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/vlsi24/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=5204
+VMR_MODE_FLAG=32
+VENDOR=unknown
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+USERNAME=vlsi24
+UNAME=/bin/uname
+TOOL_HOME=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux
+TCAD_HOME=/home/vlsi24/c2s/synopsys/sentaurus/T-2022.03-SP2/
+S_COLORS=auto
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=5794
+SNPS_VCS_CLANG_PATH=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/5752,unix/unix:/tmp/.ICE-unix/5752
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+PRIMETIME_HOME=/home/vlsi24/c2s/synopsys/prime/prime/U-2022.12-SP3
+OVA_UUM=0
+OSTYPE=linux
+NO_PROXY=localhost,127.0.0.0/8,::1
+MODULES_USE_COMPAT_VERSION=0
+MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULESHOME=/usr/share/Modules
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MANAGERPID=5440
+LOADEDMODULES=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+JOURNAL_STREAM=9:63620
+INVOCATION_ID=1ed8be107b4d4f298446e6abfd91655d
+IC_VALIDATOR_HOME=/home/vlsi24/c2s/synopsys/icvalidator/icvalidator/U-2022.12-SP2
+ICC_HOME=/home/vlsi24/c2s/synopsys/icc2/icc2/U-2022.12-SP3
+HTTP_PROXY=http://172.16.1.14:3128/
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=vlsi24
+GNOME_TERMINAL_SERVICE=:1.83
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/6ba1f7e7_7bbb_4f32_9d24_72b5fa331d05
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_IN.UTF-8
+GDMSESSION=gnome-classic
+GDK_BACKEND=x11
+FLEXLM_DIAGNOSTICS=3
+DVE_HOME=/home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/gui/dve
+DESKTOP_SESSION=gnome-classic
+DESIGN_COMPILER_HOME=/home/vlsi24/c2s/synopsys/dc/U-2022.12-SP5
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=05e7391a1e86a5565714e8de6777a7a3
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=05e7391a1e86a5565714e8de6777a7a3
+COLORTERM=truecolor
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_switchml%%=() {  typeset swfound=1;_ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then_ typeset swname='main';_ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then_ typeset swfound=0;_ unset MODULES_USE_COMPAT_VERSION;_ fi;_ else_ typeset swname='compatibility';_ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then_ typeset swfound=0;_ MODULES_USE_COMPAT_VERSION=1;_ export MODULES_USE_COMPAT_VERSION;_ fi;_ fi;_ if [ $swfound -eq 0 ]; then_ echo "Switching to Modules $swname version";_ source /usr/share/Modules/init/bash;_ else_ echo "Cannot switch to Modules $swname version, command not found";_ return 1;_ fi_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1_}
+BASH_FUNC_ml%%=() {  module ml "$@"_}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;_ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then_ case "$-" in _ *v*x*)_ set +vx;_ _mlshdbg='vx'_ ;;_ *v*)_ set +v;_ _mlshdbg='v'_ ;;_ *x*)_ set +x;_ _mlshdbg='x'_ ;;_ *)_ _mlshdbg=''_ ;;_ esac;_ fi;_ unset _mlre _mlIFS;_ if [ -n "${IFS+x}" ]; then_ _mlIFS=$IFS;_ fi;_ IFS=' ';_ for _mlv in ${MODULES_RUN_QUARANTINE:-};_ do_ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then_ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then_ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";_ fi;_ _mlrv="MODULES_RUNENV_${_mlv}";_ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";_ fi;_ done;_ if [ -n "${_mlre:-}" ]; then_ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;_ else_ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;_ fi;_ _mlstatus=$?;_ if [ -n "${_mlIFS+x}" ]; then_ IFS=$_mlIFS;_ else_ unset IFS;_ fi;_ unset _mlre _mlv _mlrv _mlIFS;_ if [ -n "${_mlshdbg:-}" ]; then_ set -$_mlshdbg;_ fi;_ unset _mlshdbg;_ return $_mlstatus_}
+0
+0
+5
+1735894963 ../luhn_corrected/luhn_datapath_corrected.v
+1735894970 ../luhn_corrected/luhn_controller_corrected.v
+1735896774 ../luhn_corrected/luhn_topmodule.v
+1735897179 ../luhn_corrected/luhn_testbench.v
+1677384606 /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/vcsdp_lite.tab
+4
+1677385974 /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libvirsim.so
+1677385238 /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/liberrorinf.so
+1677385147 /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libsnpsmalloc.so
+1677385906 /home/vlsi24/c2s/synopsys/vcs/vcs/U-2023.03/linux/lib/libvfs.so
+1735897416 luhn.simv.daidir
+-1 partitionlib

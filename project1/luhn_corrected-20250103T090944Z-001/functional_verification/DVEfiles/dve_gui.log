@@ -1,0 +1,41 @@
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03; Runtime version U-2023.03;  Jan  3 15:09 2025
+VCS Build Date = Feb 25 2023 20:19:23
+Start run at Jan  3 15:09 2025
+Checkout succeeded: VCS-BASE-RUNTIME/8F2871AD7ADC4E3BB208
+	License file: 27020@14.139.1.126
+	License Server: 27020@14.139.1.126
+[SCL] 01/03/2025 15:10:02 Checking status for feature VCS-BASE-RUNTIME
+[SCL] 01/03/2025 15:10:02 PID:13134 Client:ece.nitdgp.ac.in Server:27020@14.139.1.126 Checkout succeeded VCS-BASE-RUNTIME 2023.03 from VCS-3-Apex-Base-Runtime-Pkg
+VCD+ Writer U-2023.03 Copyright (c) 1991-2023 by Synopsys Inc.
+The file '/home/vlsi24/Desktop/EC1062DICDlab/project1/luhn_corrected-20250103T090944Z-001/functional_verification/inter.vpd' was opened successfully.
+Card is valid.
+syn/generic.sdb'
+syn/vcs.sdb'
+syn/vcs.sdb'
+syn/vcs.sdb'
+syn/generic.sdb'
+dve> 
+dve> 
+Warning: [DVDL019] 
+Unable to trace drivers/loads, because design was compiled without driver option.
+Please recompile the design with '-debug_access+r+driver'.Please recompile using the '-debug_access<+options>' switch and incremental options as required.  Recommended options are '-debug_access' for post-process debug, '-debug_access+class' for testbench debug, and '-debug_access+all' for all debug capabilities.  Refer the VCS user guide for more granular options for debug control under the switch '-debug_access' and refer to '-debug_region' for region control.
+Warning: [DVDL019] 
+Unable to trace drivers/loads, because design was compiled without driver option.
+Please recompile the design with '-debug_access+r+driver'.Please recompile using the '-debug_access<+options>' switch and incremental options as required.  Recommended options are '-debug_access' for post-process debug, '-debug_access+class' for testbench debug, and '-debug_access+all' for all debug capabilities.  Refer the VCS user guide for more granular options for debug control under the switch '-debug_access' and refer to '-debug_region' for region control.
+Warning: [DVDL019] 
+Unable to trace drivers/loads, because design was compiled without driver option.
+Please recompile the design with '-debug_access+r+driver'.Please recompile using the '-debug_access<+options>' switch and incremental options as required.  Recommended options are '-debug_access' for post-process debug, '-debug_access+class' for testbench debug, and '-debug_access+all' for all debug capabilities.  Refer the VCS user guide for more granular options for debug control under the switch '-debug_access' and refer to '-debug_region' for region control.
+Warning: [DVDL019] 
+Unable to trace drivers/loads, because design was compiled without driver option.
+Please recompile the design with '-debug_access+r+driver'.Please recompile using the '-debug_access<+options>' switch and incremental options as required.  Recommended options are '-debug_access' for post-process debug, '-debug_access+class' for testbench debug, and '-debug_access+all' for all debug capabilities.  Refer the VCS user guide for more granular options for debug control under the switch '-debug_access' and refer to '-debug_region' for region control.
+Warning: [DVDL019] 
+Unable to trace drivers/loads, because design was compiled without driver option.
+Please recompile the design with '-debug_access+r+driver'.Please recompile using the '-debug_access<+options>' switch and incremental options as required.  Recommended options are '-debug_access' for post-process debug, '-debug_access+class' for testbench debug, and '-debug_access+all' for all debug capabilities.  Refer the VCS user guide for more granular options for debug control under the switch '-debug_access' and refer to '-debug_region' for region control.
+dve> 
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 510000 ps
+CPU Time:      0.090 seconds;       Data structure size:   0.0Mb
+Fri Jan  3 15:13:36 2025
+[SCL] 01/03/2025 15:13:36 PID:13134 Client:ece.nitdgp.ac.in checkin (null) 

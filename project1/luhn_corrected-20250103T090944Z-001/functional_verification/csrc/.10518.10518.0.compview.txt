@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1735896810.335085349, "rt":2.07, "ut":0.06, "st":0.01}}
+{"vcselab":{"timestamp_begin":1735896812.439153756, "rt":3.21, "ut":0.09, "st":0.02}}
+{"link":{"timestamp_begin":1735896815.688357755, "rt":1.05, "ut":0.07, "st":0.03}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1735896810.203331941}
+{"VCS_COMP_START_TIME": 1735896810.203331941}
+{"VCS_COMP_END_TIME": 1735896816.770251063}
+{"VCS_USER_OPTIONS": "../luhn_corrected/luhn_testbench.v ../luhn_corrected/luhn_topmodule.v ../luhn_corrected/luhn_controller_corrected.v ../luhn_corrected/luhn_datapath_corrected.v"}
+{"vcs1": {"peak_mem": 245116}}
+{"vcselab": {"peak_mem": 127520}}

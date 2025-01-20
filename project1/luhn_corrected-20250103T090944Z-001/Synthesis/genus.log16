@@ -1,0 +1,50 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[19:08:18.275929] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: -legacy_ui -files dft.tcl 
+Date:    Fri Jan 03 19:08:18 2025
+Host:    ece.nitdgp.ac.in (x86_64 w/Linux 4.18.0-513.24.1.el8_9.x86_64) (6cores*12cpus*1physical cpu*12th Gen Intel(R) Core(TM) i5-12500 18432KB) (32310204KB)
+PID:     40158
+OS:      Red Hat Enterprise Linux release 8.9 (Ootpa)
+
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+Checkout succeeded: Genus_Synthesis/EF29107615D411912BD3
+	License file: 5280@14.139.1.126
+	License Server: 5280@14.139.1.126
+
+[19:08:19.362752] Periodic Lic check successful
+[19:08:19.362769] Feature usage summary:
+[19:08:19.362769] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...WARNING:Hostname to IPv4 and IPv6 address lookup failed for the host cadence-c2s
+
+Finished loading tool scripts (4 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source dft.tcl
+File 'dft.tcl' does not exist.
+Encountered problems processing file: dft.tcl
+WARNING: This version of the tool is 925 days old.
+legacy_genus:/> ex
+ambiguous command name "ex": exec exec_embedded_script exit export_critical_endpoints export_oa_db expr external_delay
+legacy_genus:/> exit
+
+Lic Summary:
+[19:08:27.153683] Cdslmd servers: cadence-c2s
+[19:08:27.153689] Feature usage summary:
+[19:08:27.153690] Genus_Synthesis
+
+Normal exit.

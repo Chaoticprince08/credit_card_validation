@@ -1,0 +1,3 @@
+SOFTINCLUDE /home/vlsi18/c2s/cadence/install/IC618/share/cdssetup/cds.lib
+DEFINE Luhn /home/vlsi18/Desktop/24EC4205/project1/project1/luhn_corrected/pd/Luhn
+DEFINE avTech /home/vlsi18/c2s/cadence/install/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
