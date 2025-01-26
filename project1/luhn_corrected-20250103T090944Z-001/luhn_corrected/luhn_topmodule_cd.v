@@ -57,7 +57,8 @@ luhn_controller luhn_controller_inst (
     .load_sum(load_sum),
     .output_enable(output_enable),
     .count_enable(count_enable),
-    .sum_enable(sum_enable)
+    .sum_enable(sum_enable),
+    .stop(stop)
 );
     
 endmodule
