@@ -1,7 +1,7 @@
 /*
 Testbench for Luhn Algorithm Validation.
 */
-//`include "luhn_topmodule.v"
+`include "luhn_topmodule_cd.v"
 `timescale 1ns/1ps
 module luhn_testbench;
 
@@ -11,7 +11,7 @@ module luhn_testbench;
     wire validate;
     
     // Instantiate top module
-    luhn_top_module uut (
+    luhn_topmodule_cd uut (
         .clk(clk),
         .rst(rst),
         .serial_in(serial_in),
@@ -29,8 +29,8 @@ module luhn_testbench;
     integer i;
 
     initial begin
-        //$dumpfile("luhn_testbench.vcd");
-        //$dumpvars;
+        $dumpfile("luhn_testbench.vcd");
+        $dumpvars;
         // Reset system
         rst = 1;
         #10;
@@ -43,17 +43,17 @@ module luhn_testbench;
         end
 
         // Wait for validation
-        #340;
+        #1500;
         
 
         // Check results
-        if (uut.datapath.validate) begin
+        /*if (uut.datapath.validate) begin
             $display("Card is valid.");
         end else begin
             $display("Card is invalid.");
-        end
+        end*/
 
-        $stop;
+        $finish;
     end
 
 endmodule

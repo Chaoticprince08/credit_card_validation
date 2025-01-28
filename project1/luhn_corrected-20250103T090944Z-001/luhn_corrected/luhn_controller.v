@@ -47,15 +47,15 @@ always @(posedge(clk) or posedge(rst)) begin
         output_enable <= 1'b0;
         count_enable <= 1'b0;
         sum_enable <= 1'b0;
-        present_state <= s0;
-        next_state <= s0;
+        //present_state <= s0;
+        //next_state <= s0;
     end
     else begin
       present_state <= next_state;
     end
 end
 
-always @(present_state) begin
+always @(present_state or go) begin
     if (go == 1'b1 & present_state == s0) begin
         next_state = s1;
         load_digit = 1'b0;
@@ -103,6 +103,7 @@ always @(present_state) begin
             end
             s6 : begin
                 load_digit = 1'b0;
+                mult_sel = 1'bz;
                 output_enable = 1'b0;
                 count_enable = 1'b0;
                 next_state = s7;

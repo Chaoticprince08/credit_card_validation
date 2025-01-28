@@ -26,7 +26,7 @@ module luhn_datapath (
     output reg stop
 );
 
-reg [3:0] count;
+reg [4:0] count;
 reg [3:0] value_out;
 reg [4:0] mult_out;
 reg [4:0] mult_value_out;
@@ -39,7 +39,7 @@ reg [10:0] sum;
 // Memory to store card digits
 reg [3:0] card_number [15:0];
 integer j;
-
+integer k;
 
 // Resetting the card number and sum
 always @(posedge rst) begin
@@ -57,7 +57,7 @@ always @(posedge clk) begin
         j <= j + 1;
         //$display("Card Number[%0d]: %0d", j, serial_in); //For debugging
     end
-    if (j == 16) begin
+    if (j == 16 & stop == 1'b0) begin
         go <= 1'b1;
     end else begin
         go <= 1'b0;
@@ -68,12 +68,14 @@ end
 //Registers or Sequential Logic
 always @(posedge(rst) or posedge(clk)) begin
     if(rst == 1'b1) begin
-        count <= 4'b0000;
-        validate <= 1'b0;
+        count <= 5'b0000;
+        k <= 0;
+        stop <= 1'b0;
+        //validate <= 1'b0;
     end
     else begin
         if(load_digit == 1'b1) begin
-            value_out <= serial_in;
+            value_out <= card_number[k];
         end
         else if (mult_sel == 1'b1) begin
             mult_out <= mult_value_out;
@@ -99,6 +101,7 @@ always @(*) begin
     comp_value_zero = mult_out;
     if(sum_enable == 1'b1) begin
         sum = sum + comp_out;
+        k = k + 1;
     end
 end
 
@@ -111,27 +114,30 @@ always @(posedge(clk)) begin
         count <= count + 1'b1;
     end
     if (count[0] == 1'b1) begin
-        odd <= 1'b0;
+        odd <= 1'b1;
     end
     else begin
-        odd <= 1'b1;
+        odd <= 1'b0;
     end
 end
 
 //Output Logic
 always @(count) begin
-    if (count == 4'b1111) begin
+    if (count == 5'b10000) begin
         stop = 1'b1;
-        if (sum%10 == 1'b0) begin
-            validate = 1'b1;
-        end
-        else begin
-            validate = 1'b0;
-        end
     end
     else begin
-        validate = 1'b0;
         stop = 1'b0;
+    end
+end
+
+//Output Logic
+always @(posedge(clk)) begin
+    if (sum%10 == 1'b0 & stop == 1'b1) begin
+        validate <= 1'b1;
+    end
+    else begin
+        validate <= 1'b0;
     end
 end
 
